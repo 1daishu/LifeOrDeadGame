@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LifeOrDead</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create">СОТВОРИТЬ</string>
+    <string name="cellular_filling">Клеточное наполнение</string>
+    <string name="life">Жизнь</string>
+    <string name="lively">Живая</string>
+    <string name="dead">Мертвая</string>
+    <string name="death">Смерть</string>
+    <string name="q_q">Ку-ку!</string>
+    <string name="bye_bey">Пока-пока!</string>
+    <string name="she_alive">Она жива</string>
+    <string name="she_is_dead">Увы,она мертва</string>
+</resources>

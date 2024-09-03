@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.LifeOrDead" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorOnPrimary">@color/black</item>
+    </style>
+
+    <style name="Theme.LifeOrDead" parent="Base.Theme.LifeOrDead" />
+</resources>
