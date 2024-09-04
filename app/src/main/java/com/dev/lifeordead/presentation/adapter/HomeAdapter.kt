@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.dev.lifeordead.R
-import com.dev.lifeordead.presentation.data.Ceil
+import com.dev.lifeordead.data.Ceil
 import com.dev.lifeordead.databinding.ElementCeilBinding
 
 class HomeAdapter : ListAdapter<Ceil, HomeAdapter.HomeViewHolder>(CeilDiffCallback()) {
@@ -31,8 +31,13 @@ class HomeAdapter : ListAdapter<Ceil, HomeAdapter.HomeViewHolder>(CeilDiffCallba
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HomeViewHolder {
-        val binding = ElementCeilBinding.inflate(LayoutInflater.from(parent.context), parent, false)
-        return HomeViewHolder(binding)
+        return HomeViewHolder(
+            ElementCeilBinding.inflate(
+                LayoutInflater.from(parent.context),
+                parent,
+                false
+            )
+        )
     }
 
     override fun onBindViewHolder(holder: HomeViewHolder, position: Int) {

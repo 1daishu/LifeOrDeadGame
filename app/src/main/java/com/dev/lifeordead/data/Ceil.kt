@@ -1,4 +1,4 @@
-package com.dev.lifeordead.presentation.data
+package com.dev.lifeordead.data
 
 data class Ceil(
     val isAlive: Boolean,

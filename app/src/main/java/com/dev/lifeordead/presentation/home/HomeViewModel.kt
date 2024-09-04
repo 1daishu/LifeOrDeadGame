@@ -6,7 +6,7 @@ import androidx.core.os.postDelayed
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.dev.lifeordead.R
-import com.dev.lifeordead.presentation.data.Ceil
+import com.dev.lifeordead.data.Ceil
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
